@@ -21,7 +21,7 @@ export function About() {
                         <p>Sou apaixonado por desenvolver soluções que melhore a vida
                         das pessoas. Eu me especializei no desenvolvimento de produtos
                         e software para clientes que vão desde indivíduos, pequenas
-                        empresas e grandes empresas. O que você faria se tivesse um
+                        medias e grandes empresas. O que você faria se tivesse um
                             especialista em software disponível ao seu alcance?</p>
                     </div>
 
