@@ -4,12 +4,35 @@ import github from "../assets/github.svg"
 import linkedin from "../assets/linkedin.svg"
 //@ts-ignore
 import whatsapp from "../assets/whatsapp.svg"
+//@ts-ignore
+import background from "../assets/alta.png"
+//@ts-ignore
+
+import Image from "./Img";
+import CSS from 'csstype'
+
 
 export function Presentation() {
+    
+    const img:CSS.Properties=
+    {
+        backgroundImage: `url(${background})`,
+        width:'100px',
+        height:'100px',
+    } 
+
+
     return (
-        <div className=" home overflow-hidden w-screen h-screen bg-cover bg-[url('../assets/backgroundImage.svg')]">
-            <div className=" ">
-                <div className=" mt-64 ml-40 font-medium text-cyan-300 text-3xl">
+        <div className="home relative overflow-hidden w-screen h-screen pt-16" >
+            <Image 
+            className="absolute w-screen h-screen "
+            lq={background}
+            src={background}
+            //src={'https://images.unsplash.com/photo-1618477388954-7852f32655ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80'}
+            
+            />
+            <div className="relative">
+                <div className=" z-10 mt-64 ml-40 font-medium text-cyan-300 text-3xl">
                     <span>Ola, eu sou</span>
                 </div>
                 <div className="flex  ml-52 top-72 font-bold text-6xl gap-6">

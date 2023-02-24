@@ -7,16 +7,24 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
-
+import Image from "./Img";
 import WorkIcon from '@mui/icons-material/Work';
-
+//@ts-ignore
+import background from "../assets/montanha.png"
 
 export default function OutlinedTimeline() {
+  
   return (
-    <div className="experiencia w-full h-screen bg-cover bg-[url('../assets/background2.svg')] text-gray-300">
-
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
-        <div>
+    <div className="experiencia relative w-screen h-screen" >
+      <Image 
+      className="absolute w-screen h-screen "
+      lq={background}
+      src={background}
+      //src={'https://images.unsplash.com/photo-1486911278844-a81c5267e227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'}
+      
+      />
+      <div className=' relative max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+        <div className='pt-16'>
           <p className='text-4xl font-bold inline border-b-4 border-cyan-400 '>
             Experiências
           </p>

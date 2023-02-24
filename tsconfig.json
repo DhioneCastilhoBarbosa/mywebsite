@@ -24,6 +24,7 @@
     "src",
     "./src/**/*.tsx",
     "./src/**/*.svg",
+    "./src/**/*.tsx",
   ],
   "references": [
     {
