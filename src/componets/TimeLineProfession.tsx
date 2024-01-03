@@ -15,22 +15,21 @@ import background from "../assets/montanha.png"
 export default function OutlinedTimeline() {
   
   return (
-    <div className="experiencia relative w-screen h-screen" >
+    <div className="experiencia relative w-screen h-auto md:h-screen" >
       <Image 
-      className="absolute w-screen h-screen "
+      className="absolute w-screen h-full "
       lq={background}
       src={background}
-      //src={'https://images.unsplash.com/photo-1486911278844-a81c5267e227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'}
       
       />
-      <div className=' relative max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+      <div className=' relative max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-auto '>
         <div className='pt-16'>
-          <p className='text-4xl font-bold inline border-b-4 border-cyan-400 '>
+          <p className='text-3xl font-bold inline border-b-4 border-cyan-400 md:text-6xl'>
             Experiências
           </p>
           <p className='py-4'>Estas são as minhas expereinecias.</p>
 
-          <div className='mt-10 hover:scale-110 duration-1000'>
+          <div className='mt-5 hover:scale-105 duration-1000'>
             <Timeline position="alternate">
               <TimelineItem>
                 <TimelineOppositeContent

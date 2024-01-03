@@ -15,7 +15,7 @@ import CPlusPlus from '../assets/CPlus.png'
 
 export function Skills() {
     return (
-        <div className=' skills  z-10 w-full h-screen bg-[#131d2b] text-gray-300'>
+        <div className=' skills relative z-10 w-full h-auto bg-[#131d2b] text-gray-300 md:h-screen'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>

@@ -8,10 +8,10 @@ import { Link } from 'react-scroll'
 
 export function Header() {
     return (
-        <div className=" fixed z-20 w-full h-16 p-8 px-20 mx-auto flex items-center justify-between bg-background border-b-2 border-cyan-900 ">
+        <div className="fixed z-20 w-full h-16 p-8 px-20 mx-auto flex items-center justify-between bg-background border-b-2 border-cyan-900 md:justify-items-center">
 
             <img src={logoImage} alt="" />
-            <ul className=" flex gap-4  cursor-pointer ">
+            <ul className="  invisible md:visible flex gap-4 cursor-pointer">
                 <li className="hover:text-cyan-400 duration-500">
                     <Link to='home' smooth={true} duration={800}>Home</Link>
                 </li>
@@ -24,10 +24,8 @@ export function Header() {
                 <li className="hover:text-cyan-400 duration-500">
                     <Link to='skills' smooth={true} duration={800}>Skill</Link>
                 </li>
-
-
             </ul>
-
+ 
         </div >
 
     )
