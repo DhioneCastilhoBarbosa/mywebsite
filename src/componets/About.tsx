@@ -17,11 +17,10 @@ export function About() {
                         Por favor fique à vontade para navegar em meu site.</p>
                     </div>
                     <div className="">
-                        <p>Sou apaixonado por desenvolver soluções que melhore a vida
-                        das pessoas. Eu me especializei no desenvolvimento de produtos
-                        e software para clientes que vão desde indivíduos, pequenas
-                        medias e grandes empresas. O que você faria se tivesse um
-                            especialista em software disponível ao seu alcance?</p>
+                        <p>Desenvolver soluções que impactam positivamente a vida das pessoas é a minha paixão. 
+                            Tenho expertise no desenvolvimento de produtos e software,atendo a diversos clientes, 
+                            que inclui desde indivíduos até grandes corporações. Imagine ter um especialista em software 
+                            ao seu alcance. Compartilhe sua ideia e permita-me transformá-la em realidade para o seu projeto."</p>
                     </div>
 
                 </div>
