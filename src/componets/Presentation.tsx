@@ -15,7 +15,7 @@ export function Presentation() {
     return (
         <div className="home c overflow-hidden w-screen pt-16 pb-16 h-auto md:h-screen" >
             <Image 
-            className="absolute mt-10 w-screen h-96 md:mt-0 md:h-screen"
+            className="absolute w-screen h-full md:mt-0 md:h-screen"
             lq={background}
             src={background}
             />
