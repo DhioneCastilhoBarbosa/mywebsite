@@ -27,7 +27,7 @@ export default function OutlinedTimeline() {
           <p className='text-3xl font-bold inline border-b-4 border-cyan-400 md:text-6xl'>
             Experiências
           </p>
-          <p className='py-4'>Estas são as minhas expereinecias.</p>
+          <p className='py-4'>Estas são as minhas experiências.</p>
 
           <div className='mt-5 hover:scale-105 duration-1000'>
             <Timeline position="alternate">
@@ -79,7 +79,7 @@ export default function OutlinedTimeline() {
                     <strong>Dualbase Tecnologia</strong>
                   </Typography>
                   <Typography>
-                    Analista de Desenvolvimento de Produtos nivel 2
+                    Analista de Desenvolvimento de Produtos nível 2
           </Typography>
                 </TimelineContent>
               </TimelineItem>
@@ -104,7 +104,7 @@ export default function OutlinedTimeline() {
                     <strong>Dualbase Tecnologia</strong>
                   </Typography>
                   <Typography>
-                    Analista de Desenvolvimento de Produtos nivel 1
+                    Analista de Desenvolvimento de Produtos nível 1
           </Typography>
                 </TimelineContent>
               </TimelineItem>
