@@ -28,7 +28,7 @@ export function Presentation() {
                     <h1 className="text-cyan-300">Castilho</h1> 
                 </div>
                 <span className="flex top-80 ml-32 font-medium text-xl md:ml-52 md:text-2xl" >
-                    Front-end Developer
+                    Full Stack Developer
                 </span>
                 <div className="flex top-96 mt-12 ml-32 font-medium text-2xl md:ml-52">
                     <ul className="flex flex-col gap-6 md:flex-row gap-20 ">
